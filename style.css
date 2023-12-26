@@ -267,9 +267,12 @@ nav ul li a:hover
 
 .pesan
 {
+    display: inline-block;
     background-color:var(--green) ;
     padding: 5%;
     border-radius: 10px;
+    color: black;
+    margin-top: 15px;
 }
 
 .pesan:hover
@@ -279,7 +282,8 @@ nav ul li a:hover
 
 .pesan img
 {
-    width: 30px;
+    width: 35px;
+    vertical-align: middle;
 }
 
 .tentang
@@ -313,7 +317,7 @@ nav ul li a:hover
 .kon {
     background-color: var(--blue);
     padding: 5%;
-    border-radius: 5px;
+    border-radius: 2px;
     box-shadow: 20px 20px black;
     text-align: center;
 }
@@ -330,7 +334,7 @@ nav ul li a:hover
     border-radius: 15px;
     text-decoration: none;
     margin-left: 2%;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .wa:hover {
@@ -338,7 +342,8 @@ nav ul li a:hover
 }
 
 .wa img {
-    width: 30px;
+    width: 35px;
+    vertical-align: middle;
 }
 
  
